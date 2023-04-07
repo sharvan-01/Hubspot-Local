@@ -1,0 +1,15 @@
+Things to be done: 001. Figure out how to send data to HS and its data structures
+
+1. Figure out how to send data to your code
+2. How to host API end point somewhere so that we can send data to it from the code on sandbox.io
+
+How to send data to the API?
+In the form of a JSON object.
+Every time the next button is clicked, we will create a JSON object with the relevant values and pass it to the API.
+The API will refer to the object and send it directly to HS.
+How the the mapping of property will happen is by specifying the exact property name as the key for the values
+
+But how will it know who this data belongs to?
+
+We will use the CREATE API for when we have email.
+And post that we will use the UPDATE API with the email as the identifier.
